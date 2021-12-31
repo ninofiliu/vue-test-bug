@@ -6,6 +6,7 @@ specifiers:
   '@vue/test-utils': ^1.3.0
   '@vue/vue2-jest': ^27.0.0-alpha.4
   babel-jest: ^27.4.5
+  babel-plugin-dynamic-import-node: ^2.3.3
   jest: ^27.4.5
   vue: ^2.6.14
   vue-template-compiler: ^2.6.14
@@ -19,6 +20,7 @@ devDependencies:
   '@vue/test-utils': 1.3.0_9065e7474e033a8e4b95615fc8e6c36c
   '@vue/vue2-jest': 27.0.0-alpha.4_fd0e89a612b8561a69fcdff01bd5ff88
   babel-jest: 27.4.5_@babel+core@7.16.7
+  babel-plugin-dynamic-import-node: 2.3.3
   jest: 27.4.5
   vue-template-compiler: 2.6.14
 
