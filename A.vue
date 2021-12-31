@@ -3,11 +3,9 @@
 </template>
 
 <script>
-import B from './B.vue';
-
 export default {
   components: {
-    B,
+    B: () => import('./B.vue'),
   },
 };
 </script>
