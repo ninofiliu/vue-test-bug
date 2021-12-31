@@ -3,7 +3,7 @@ import A from './A.vue';
 import B from './B.vue';
 
 it('should work', async () => {
-  const wrapper = shallowMount(A);
+  const wrapper = shallowMount(A, { stubs: { B }});
   await wrapper.vm.$nextTick()
   wrapper.getComponent(B);
 });
